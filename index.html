@@ -2,9 +2,16 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-	        <title>D3 Page Template</title>
+	    <title>D3 Page Template</title>
+	    <script type="text/javascript" src="d3/d3-master/d3.js"></script>
 	</head>
 	<body>
-	Hello World!
+	<p>Hello World!</p>
+	<script type="text/javascript">
+	var dataset = [ 5, 10, 15, 20, 25 ];
+	d3.csv("dataset", function(data) {
+    	console.log(data);
+	});
+	</script>
 	</body>
 </html>
