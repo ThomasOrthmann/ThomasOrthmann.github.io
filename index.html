@@ -9,9 +9,11 @@
 	<p>Hello World!!</p>
 	<script type="text/javascript">
 	var dataset = [ 5, 10, 15, 20, 25 ];
-	d3.csv("dataset", function(data) {
-    	console.log(data);
-	});
+	d3.select("body").selectAll("p")
+	    .data(dataset)
+	    .enter()
+	    .append("p")
+	    .text(function(d) { return d; });
 	</script>
 	</body>
 </html>
