@@ -45,15 +45,21 @@ d3.json("json/collisionBronxPerYear.json", function(error, data){
       .attr("width", x.rangeBand());  //set width base on range on ordinal data
 
   bar.append("text")
-      .attr("x", x.rangeBand()+margin.left )
-      .attr("y", function(d) { return y(d.Occurrence) -10; })
+      .attr("x", x.rangeBand()+margin.left-6 )
+      .attr("y", function(d) { return y(d.Occurrence) + 2; })
       .attr("dy", ".75em")
-      .text(function(d) { return d.Occurrence; });
+      .text(function(d) { return d.Occurrence; })
+      .style('fill', 'black');
   
   chart.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate("+margin.left+","+ height+")")        
-        .call(xAxis);
+        .call(xAxis)
+        .selectAll("text")  
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", "rotate(-65)" );
   
   chart.append("g")
         .attr("class", "y axis")
