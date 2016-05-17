@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-	    <title>D3 Page Template</title>
-	    <script type="text/javascript" src="d3/d3-master/d3.js"></script>
-	</head>
-	<body>
-	
-	<script type="text/javascript">
-	var dataset = [ 5, 10, 15, 20, 25 ];
-	d3.select("body").selectAll("p")
-	    .data(dataset)
-	    .enter()
-	    .append("p")
-	    .text(function(d) { return d; });
-	</script>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Page Template</title>
+        <style type="text/css">
+            #chart rect{
+			  fill: #4aaeea;
+			}
+
+			#chart text{
+			  fill: white;
+			  font: 10px sans-serif;
+			  text-anchor: end; 
+			}
+
+			.axis text{
+			  font: 10px sans-serif;
+			}
+
+			.axis path, .axis line{
+			  fill: none;
+			  stroke : #fff;
+			  shape-rendering: crispEdges;
+			}
+
+			body{
+			  background: #1a1a1a;
+			  color : #eaeaea;
+			  padding : 10px;
+			}
+        </style>
+        <script type="text/javascript" src="d3/d3-master/d3.js"></script>
+    </head>
+    <body>
+    	<h2>D3JS Simple JSON SVG barchart Horizontal with Axis</h2>
+		<i>using simple JSON data</i><br/>
+		<div id="chart"></div> 
+		<script type="text/javascript" src="barChart.js"></script>
+    </body>
 </html>

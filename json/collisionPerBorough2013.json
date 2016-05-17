@@ -1,0 +1,22 @@
+[
+  {
+    "Borough": "BRONX",
+    "Occurrence": 202
+  },
+  {
+    "Borough": "BROOKLYN",
+    "Occurrence": 336
+  },
+  {
+    "Borough": "STATEN ISLAND",
+    "Occurrence": 59
+  },
+  {
+    "Borough": "MANHATTAN",
+    "Occurrence": 271
+  },
+  {
+    "Borough": "QUEENS",
+    "Occurrence": 360
+  }
+]

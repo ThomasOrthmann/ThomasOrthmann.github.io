@@ -1,0 +1,190 @@
+[
+  {
+    "Cause": "Unspecified",
+    "Occurrence": 316907
+  },
+  {
+    "Cause": "Driver Inattention/Distraction",
+    "Occurrence": 70947
+  },
+  {
+    "Cause": "Failure to Yield Right-of-Way",
+    "Occurrence": 27990
+  },
+  {
+    "Cause": "Fatigued/Drowsy",
+    "Occurrence": 24758
+  },
+  {
+    "Cause": "Other Vehicular",
+    "Occurrence": 21205
+  },
+  {
+    "Cause": "Backing Unsafely",
+    "Occurrence": 17591
+  },
+  {
+    "Cause": "Lost Consciousness",
+    "Occurrence": 14775
+  },
+  {
+    "Cause": "Prescription Medication",
+    "Occurrence": 12738
+  },
+  {
+    "Cause": "Turning Improperly",
+    "Occurrence": 12658
+  },
+  {
+    "Cause": "Driver Inexperience",
+    "Occurrence": 7424
+  },
+  {
+    "Cause": "Physical Disability",
+    "Occurrence": 7400
+  },
+  {
+    "Cause": "Traffic Control Disregarded",
+    "Occurrence": 6662
+  },
+  {
+    "Cause": "Outside Car Distraction",
+    "Occurrence": 5915
+  },
+  {
+    "Cause": "Pavement Slippery",
+    "Occurrence": 5677
+  },
+  {
+    "Cause": "Alcohol Involvement",
+    "Occurrence": 4724
+  },
+  {
+    "Cause": "Oversized Vehicle",
+    "Occurrence": 3917
+  },
+  {
+    "Cause": "Passenger Distraction",
+    "Occurrence": 3494
+  },
+  {
+    "Cause": "View Obstructed/Limited",
+    "Occurrence": 2346
+  },
+  {
+    "Cause": "Aggressive Driving/Road Rage",
+    "Occurrence": 1878
+  },
+  {
+    "Cause": "Illness",
+    "Occurrence": 1870
+  },
+  {
+    "Cause": "Other Electronic Device",
+    "Occurrence": 1674
+  },
+  {
+    "Cause": "Brakes Defective",
+    "Occurrence": 1436
+  },
+  {
+    "Cause": "Glare",
+    "Occurrence": 1096
+  },
+  {
+    "Cause": "Failure to Keep Right",
+    "Occurrence": 1085
+  },
+  {
+    "Cause": "Reaction to Other Uninvolved Vehicle",
+    "Occurrence": 1069
+  },
+  {
+    "Cause": "Obstruction/Debris",
+    "Occurrence": 867
+  },
+  {
+    "Cause": "Fell Asleep",
+    "Occurrence": 746
+  },
+  {
+    "Cause": "Unsafe Speed",
+    "Occurrence": 560
+  },
+  {
+    "Cause": "Pavement Defective",
+    "Occurrence": 546
+  },
+  {
+    "Cause": "Steering Failure",
+    "Occurrence": 499
+  },
+  {
+    "Cause": "Following Too Closely",
+    "Occurrence": 382
+  },
+  {
+    "Cause": "Tire Failure/Inadequate",
+    "Occurrence": 334
+  },
+  {
+    "Cause": "Drugs (Illegal)",
+    "Occurrence": 321
+  },
+  {
+    "Cause": "Traffic Control Device Improper/Non-Working",
+    "Occurrence": 282
+  },
+  {
+    "Cause": "Animals Action",
+    "Occurrence": 260
+  },
+  {
+    "Cause": "Lane Marking Improper/Inadequate",
+    "Occurrence": 252
+  },
+  {
+    "Cause": "Accelerator Defective",
+    "Occurrence": 243
+  },
+  {
+    "Cause": "Passing or Lane Usage Improper",
+    "Occurrence": 233
+  },
+  {
+    "Cause": "Unsafe Lane Changing",
+    "Occurrence": 202
+  },
+  {
+    "Cause": "Cell Phone (hands-free)",
+    "Occurrence": 152
+  },
+  {
+    "Cause": "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion",
+    "Occurrence": 81
+  },
+  {
+    "Cause": "Tow Hitch Defective",
+    "Occurrence": 65
+  },
+  {
+    "Cause": "Cell Phone (hand-held)",
+    "Occurrence": 56
+  },
+  {
+    "Cause": "Headlights Defective",
+    "Occurrence": 45
+  },
+  {
+    "Cause": "Other Lighting Defects",
+    "Occurrence": 40
+  },
+  {
+    "Cause": "Windshield Inadequate",
+    "Occurrence": 33
+  },
+  {
+    "Cause": "Shoulders Defective/Improper",
+    "Occurrence": 23
+  }
+]
