@@ -1,182 +1,227 @@
 [
   {
     "Month": "2012/07",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2012/08",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2012/09",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2012/10",
-    "Occurrence": 2
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2012/11",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2012/12",
-    "Occurrence": 8
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/01",
-    "Occurrence": 6
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/02",
-    "Occurrence": 2
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/03",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/04",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/05",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/06",
-    "Occurrence": 4
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/07",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/08",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/09",
-    "Occurrence": 11
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/10",
-    "Occurrence": 4
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/11",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2013/12",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/01",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/02",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/03",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/04",
-    "Occurrence": 9
+    "Occurrence": 9,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/05",
-    "Occurrence": 7
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/06",
-    "Occurrence": 11
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/07",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/08",
-    "Occurrence": 11
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/09",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/10",
-    "Occurrence": 4
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/11",
-    "Occurrence": 6
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2014/12",
-    "Occurrence": 7
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/01",
-    "Occurrence": 7
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/02",
-    "Occurrence": 2
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/03",
-    "Occurrence": 4
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/04",
-    "Occurrence": 9
+    "Occurrence": 9,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/05",
-    "Occurrence": 2
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/06",
-    "Occurrence": 6
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/07",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/08",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/09",
-    "Occurrence": 5
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/10",
-    "Occurrence": 7
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/11",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2015/12",
-    "Occurrence": 8
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2016/01",
-    "Occurrence": 8
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2016/02",
-    "Occurrence": 6
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
   },
   {
     "Month": "2016/03",
-    "Occurrence": 3
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
   }
 ]

@@ -1,182 +1,227 @@
 [
   {
     "Month": "2012/07",
-    "Occurrence": 28
+    "Occurrence": 28,
+    "Borough":"Bronx"
   },
   {
     "Month": "2012/08",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2012/09",
-    "Occurrence": 17
+    "Occurrence": 17,
+    "Borough":"Bronx"
   },
   {
     "Month": "2012/10",
-    "Occurrence": 9
+    "Occurrence": 9,
+    "Borough":"Bronx"
   },
   {
     "Month": "2012/11",
-    "Occurrence": 14
+    "Occurrence": 14,
+    "Borough":"Bronx"
   },
   {
     "Month": "2012/12",
-    "Occurrence": 13
+    "Occurrence": 13,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/01",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/02",
-    "Occurrence": 11
+    "Occurrence": 11,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/03",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/04",
-    "Occurrence": 19
+    "Occurrence": 19,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/05",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/06",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/07",
-    "Occurrence": 17
+    "Occurrence": 17,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/08",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/09",
-    "Occurrence": 22
+    "Occurrence": 22,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/10",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/11",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2013/12",
-    "Occurrence": 17
+    "Occurrence": 17,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/01",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/02",
-    "Occurrence": 14
+    "Occurrence": 14,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/03",
-    "Occurrence": 18
+    "Occurrence": 18,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/04",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/05",
-    "Occurrence": 14
+    "Occurrence": 14,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/06",
-    "Occurrence": 18
+    "Occurrence": 18,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/07",
-    "Occurrence": 22
+    "Occurrence": 22,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/08",
-    "Occurrence": 18
+    "Occurrence": 18,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/09",
-    "Occurrence": 21
+    "Occurrence": 21,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/10",
-    "Occurrence": 26
+    "Occurrence": 26,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/11",
-    "Occurrence": 21
+    "Occurrence": 21,
+    "Borough":"Bronx"
   },
   {
     "Month": "2014/12",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/01",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/02",
-    "Occurrence": 10
+    "Occurrence": 10,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/03",
-    "Occurrence": 17
+    "Occurrence": 17,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/04",
-    "Occurrence": 15
+    "Occurrence": 15,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/05",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/06",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/07",
-    "Occurrence": 23
+    "Occurrence": 23,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/08",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/09",
-    "Occurrence": 18
+    "Occurrence": 18,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/10",
-    "Occurrence": 23
+    "Occurrence": 23,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/11",
-    "Occurrence": 18
+    "Occurrence": 18,
+    "Borough":"Bronx"
   },
   {
     "Month": "2015/12",
-    "Occurrence": 19
+    "Occurrence": 19,
+    "Borough":"Bronx"
   },
   {
     "Month": "2016/01",
-    "Occurrence": 19
+    "Occurrence": 19,
+    "Borough":"Bronx"
   },
   {
     "Month": "2016/02",
-    "Occurrence": 16
+    "Occurrence": 16,
+    "Borough":"Bronx"
   },
   {
     "Month": "2016/03",
-    "Occurrence": 9
+    "Occurrence": 9,
+    "Borough":"Bronx"
   }
 ]

@@ -1,182 +1,227 @@
 [
   {
     "Month": "2012/07",
-    "Occurrence": 36
+    "Occurrence": 36,
+    "Borough":"Queens"
   },
   {
     "Month": "2012/08",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Queens"
   },
   {
     "Month": "2012/09",
-    "Occurrence": 40
+    "Occurrence": 40,
+    "Borough":"Queens"
   },
   {
     "Month": "2012/10",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Queens"
   },
   {
     "Month": "2012/11",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Queens"
   },
   {
     "Month": "2012/12",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/01",
-    "Occurrence": 37
+    "Occurrence": 37,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/02",
-    "Occurrence": 12
+    "Occurrence": 12,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/03",
-    "Occurrence": 26
+    "Occurrence": 26,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/04",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/05",
-    "Occurrence": 27
+    "Occurrence": 27,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/06",
-    "Occurrence": 28
+    "Occurrence": 28,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/07",
-    "Occurrence": 34
+    "Occurrence": 34,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/08",
-    "Occurrence": 36
+    "Occurrence": 36,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/09",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/10",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/11",
-    "Occurrence": 37
+    "Occurrence": 37,
+    "Borough":"Queens"
   },
   {
     "Month": "2013/12",
-    "Occurrence": 32
+    "Occurrence": 32,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/01",
-    "Occurrence": 22
+    "Occurrence": 22,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/02",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/03",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/04",
-    "Occurrence": 26
+    "Occurrence": 26,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/05",
-    "Occurrence": 51
+    "Occurrence": 51,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/06",
-    "Occurrence": 33
+    "Occurrence": 33,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/07",
-    "Occurrence": 34
+    "Occurrence": 34,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/08",
-    "Occurrence": 48
+    "Occurrence": 48,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/09",
-    "Occurrence": 54
+    "Occurrence": 54,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/10",
-    "Occurrence": 39
+    "Occurrence": 39,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/11",
-    "Occurrence": 44
+    "Occurrence": 44,
+    "Borough":"Queens"
   },
   {
     "Month": "2014/12",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/01",
-    "Occurrence": 34
+    "Occurrence": 34,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/02",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/03",
-    "Occurrence": 47
+    "Occurrence": 47,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/04",
-    "Occurrence": 37
+    "Occurrence": 37,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/05",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/06",
-    "Occurrence": 50
+    "Occurrence": 50,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/07",
-    "Occurrence": 50
+    "Occurrence": 50,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/08",
-    "Occurrence": 43
+    "Occurrence": 43,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/09",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/10",
-    "Occurrence": 40
+    "Occurrence": 40,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/11",
-    "Occurrence": 41
+    "Occurrence": 41,
+    "Borough":"Queens"
   },
   {
     "Month": "2015/12",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Queens"
   },
   {
     "Month": "2016/01",
-    "Occurrence": 38
+    "Occurrence": 38,
+    "Borough":"Queens"
   },
   {
     "Month": "2016/02",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Queens"
   },
   {
     "Month": "2016/03",
-    "Occurrence": 14
+    "Occurrence": 14,
+    "Borough":"Queens"
   }
 ]

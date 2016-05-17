@@ -1,0 +1,1127 @@
+[
+  {
+    "Month": "2012/07",
+    "Occurrence": 16,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/08",
+    "Occurrence": 16,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/09",
+    "Occurrence": 19,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/10",
+    "Occurrence": 23,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/11",
+    "Occurrence": 16,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/12",
+    "Occurrence": 19,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/01",
+    "Occurrence": 14,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/02",
+    "Occurrence": 12,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/03",
+    "Occurrence": 15,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/04",
+    "Occurrence": 23,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/05",
+    "Occurrence": 22,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/06",
+    "Occurrence": 24,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/07",
+    "Occurrence": 24,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/08",
+    "Occurrence": 26,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/09",
+    "Occurrence": 22,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/10",
+    "Occurrence": 33,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/11",
+    "Occurrence": 31,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2013/12",
+    "Occurrence": 25,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/01",
+    "Occurrence": 15,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/02",
+    "Occurrence": 20,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/03",
+    "Occurrence": 16,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/04",
+    "Occurrence": 17,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/05",
+    "Occurrence": 33,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/06",
+    "Occurrence": 34,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/07",
+    "Occurrence": 38,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/08",
+    "Occurrence": 42,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/09",
+    "Occurrence": 35,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/10",
+    "Occurrence": 22,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/11",
+    "Occurrence": 27,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2014/12",
+    "Occurrence": 27,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/01",
+    "Occurrence": 16,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/02",
+    "Occurrence": 13,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/03",
+    "Occurrence": 14,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/04",
+    "Occurrence": 22,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/05",
+    "Occurrence": 23,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/06",
+    "Occurrence": 20,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/07",
+    "Occurrence": 25,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/08",
+    "Occurrence": 25,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/09",
+    "Occurrence": 25,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/10",
+    "Occurrence": 19,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/11",
+    "Occurrence": 20,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2015/12",
+    "Occurrence": 14,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2016/01",
+    "Occurrence": 26,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2016/02",
+    "Occurrence": 23,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2016/03",
+    "Occurrence": 8,
+    "Borough":"Manhattan"
+  },
+  {
+    "Month": "2012/07",
+    "Occurrence": 36,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/08",
+    "Occurrence": 31,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/09",
+    "Occurrence": 40,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/10",
+    "Occurrence": 30,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/11",
+    "Occurrence": 29,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/12",
+    "Occurrence": 30,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/01",
+    "Occurrence": 37,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/02",
+    "Occurrence": 12,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/03",
+    "Occurrence": 26,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/04",
+    "Occurrence": 30,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/05",
+    "Occurrence": 27,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/06",
+    "Occurrence": 28,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/07",
+    "Occurrence": 34,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/08",
+    "Occurrence": 36,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/09",
+    "Occurrence": 30,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/10",
+    "Occurrence": 31,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/11",
+    "Occurrence": 37,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2013/12",
+    "Occurrence": 32,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/01",
+    "Occurrence": 22,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/02",
+    "Occurrence": 30,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/03",
+    "Occurrence": 29,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/04",
+    "Occurrence": 26,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/05",
+    "Occurrence": 51,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/06",
+    "Occurrence": 33,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/07",
+    "Occurrence": 34,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/08",
+    "Occurrence": 48,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/09",
+    "Occurrence": 54,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/10",
+    "Occurrence": 39,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/11",
+    "Occurrence": 44,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2014/12",
+    "Occurrence": 35,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/01",
+    "Occurrence": 34,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/02",
+    "Occurrence": 35,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/03",
+    "Occurrence": 47,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/04",
+    "Occurrence": 37,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/05",
+    "Occurrence": 31,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/06",
+    "Occurrence": 50,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/07",
+    "Occurrence": 50,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/08",
+    "Occurrence": 43,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/09",
+    "Occurrence": 35,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/10",
+    "Occurrence": 40,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/11",
+    "Occurrence": 41,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2015/12",
+    "Occurrence": 29,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2016/01",
+    "Occurrence": 38,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2016/02",
+    "Occurrence": 31,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2016/03",
+    "Occurrence": 14,
+    "Borough":"Queens"
+  },
+  {
+    "Month": "2012/07",
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/08",
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/09",
+    "Occurrence": 23,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/10",
+    "Occurrence": 21,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/11",
+    "Occurrence": 27,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/12",
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/01",
+    "Occurrence": 22,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/02",
+    "Occurrence": 26,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/03",
+    "Occurrence": 28,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/04",
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/05",
+    "Occurrence": 34,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/06",
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/07",
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/08",
+    "Occurrence": 23,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/09",
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/10",
+    "Occurrence": 20,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/11",
+    "Occurrence": 39,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2013/12",
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/01",
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/02",
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/03",
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/04",
+    "Occurrence": 32,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/05",
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/06",
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/07",
+    "Occurrence": 42,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/08",
+    "Occurrence": 38,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/09",
+    "Occurrence": 43,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/10",
+    "Occurrence": 37,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/11",
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2014/12",
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/01",
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/02",
+    "Occurrence": 22,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/03",
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/04",
+    "Occurrence": 39,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/05",
+    "Occurrence": 43,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/06",
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/07",
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/08",
+    "Occurrence": 50,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/09",
+    "Occurrence": 46,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/10",
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/11",
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2015/12",
+    "Occurrence": 34,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2016/01",
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2016/02",
+    "Occurrence": 36,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2016/03",
+    "Occurrence": 14,
+    "Borough":"Brooklyn"
+  },
+  {
+    "Month": "2012/07",
+    "Occurrence": 28,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/08",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/09",
+    "Occurrence": 17,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/10",
+    "Occurrence": 9,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/11",
+    "Occurrence": 14,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/12",
+    "Occurrence": 13,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/01",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/02",
+    "Occurrence": 11,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/03",
+    "Occurrence": 29,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/04",
+    "Occurrence": 19,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/05",
+    "Occurrence": 10,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/06",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/07",
+    "Occurrence": 17,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/08",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/09",
+    "Occurrence": 22,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/10",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/11",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2013/12",
+    "Occurrence": 17,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/01",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/02",
+    "Occurrence": 14,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/03",
+    "Occurrence": 18,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/04",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/05",
+    "Occurrence": 14,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/06",
+    "Occurrence": 18,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/07",
+    "Occurrence": 22,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/08",
+    "Occurrence": 18,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/09",
+    "Occurrence": 21,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/10",
+    "Occurrence": 26,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/11",
+    "Occurrence": 21,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2014/12",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/01",
+    "Occurrence": 10,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/02",
+    "Occurrence": 10,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/03",
+    "Occurrence": 17,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/04",
+    "Occurrence": 15,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/05",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/06",
+    "Occurrence": 31,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/07",
+    "Occurrence": 23,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/08",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/09",
+    "Occurrence": 18,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/10",
+    "Occurrence": 23,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/11",
+    "Occurrence": 18,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2015/12",
+    "Occurrence": 19,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2016/01",
+    "Occurrence": 19,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2016/02",
+    "Occurrence": 16,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2016/03",
+    "Occurrence": 9,
+    "Borough":"Bronx"
+  },
+  {
+    "Month": "2012/07",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2012/08",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2012/09",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2012/10",
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2012/11",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2012/12",
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/01",
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/02",
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/03",
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/04",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/05",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/06",
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/07",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/08",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/09",
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/10",
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/11",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2013/12",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/01",
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/02",
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/03",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/04",
+    "Occurrence": 9,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/05",
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/06",
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/07",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/08",
+    "Occurrence": 11,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/09",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/10",
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/11",
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2014/12",
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/01",
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/02",
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/03",
+    "Occurrence": 4,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/04",
+    "Occurrence": 9,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/05",
+    "Occurrence": 2,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/06",
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/07",
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/08",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/09",
+    "Occurrence": 5,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/10",
+    "Occurrence": 7,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/11",
+    "Occurrence": 10,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2015/12",
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2016/01",
+    "Occurrence": 8,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2016/02",
+    "Occurrence": 6,
+    "Borough":"StatenIsland"
+  },
+  {
+    "Month": "2016/03",
+    "Occurrence": 3,
+    "Borough":"StatenIsland"
+  }
+]

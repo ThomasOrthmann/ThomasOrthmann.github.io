@@ -1,182 +1,227 @@
 [
   {
     "Month": "2012/07",
-    "Occurrence": 24
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2012/08",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2012/09",
-    "Occurrence": 23
+    "Occurrence": 23,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2012/10",
-    "Occurrence": 21
+    "Occurrence": 21,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2012/11",
-    "Occurrence": 27
+    "Occurrence": 27,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2012/12",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/01",
-    "Occurrence": 22
+    "Occurrence": 22,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/02",
-    "Occurrence": 26
+    "Occurrence": 26,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/03",
-    "Occurrence": 28
+    "Occurrence": 28,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/04",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/05",
-    "Occurrence": 34
+    "Occurrence": 34,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/06",
-    "Occurrence": 33
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/07",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/08",
-    "Occurrence": 23
+    "Occurrence": 23,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/09",
-    "Occurrence": 24
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/10",
-    "Occurrence": 20
+    "Occurrence": 20,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/11",
-    "Occurrence": 39
+    "Occurrence": 39,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2013/12",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/01",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/02",
-    "Occurrence": 24
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/03",
-    "Occurrence": 24
+    "Occurrence": 24,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/04",
-    "Occurrence": 32
+    "Occurrence": 32,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/05",
-    "Occurrence": 35
+    "Occurrence": 35,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/06",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/07",
-    "Occurrence": 42
+    "Occurrence": 42,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/08",
-    "Occurrence": 38
+    "Occurrence": 38,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/09",
-    "Occurrence": 43
+    "Occurrence": 43,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/10",
-    "Occurrence": 37
+    "Occurrence": 37,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/11",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2014/12",
-    "Occurrence": 29
+    "Occurrence": 29,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/01",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/02",
-    "Occurrence": 22
+    "Occurrence": 22,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/03",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/04",
-    "Occurrence": 39
+    "Occurrence": 39,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/05",
-    "Occurrence": 43
+    "Occurrence": 43,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/06",
-    "Occurrence": 31
+    "Occurrence": 31,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/07",
-    "Occurrence": 33
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/08",
-    "Occurrence": 50
+    "Occurrence": 50,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/09",
-    "Occurrence": 46
+    "Occurrence": 46,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/10",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/11",
-    "Occurrence": 30
+    "Occurrence": 30,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2015/12",
-    "Occurrence": 34
+    "Occurrence": 34,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2016/01",
-    "Occurrence": 33
+    "Occurrence": 33,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2016/02",
-    "Occurrence": 36
+    "Occurrence": 36,
+    "Borough":"Brooklyn"
   },
   {
     "Month": "2016/03",
-    "Occurrence": 14
+    "Occurrence": 14,
+    "Borough":"Brooklyn"
   }
 ]
