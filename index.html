@@ -29,13 +29,24 @@
 			  color : #eaeaea;
 			  padding : 10px;
 			}
+			button{
+				width: 100px;
+				height: 30px;
+			}
         </style>
         <script type="text/javascript" src="d3/d3-master/d3.js"></script>
     </head>
     <body>
     	<h2>D3JS Simple JSON SVG barchart Horizontal with Axis</h2>
 		<i>using simple JSON data</i><br/>
+		<button type="button" id="BronxButton" onClick="reply_click(this.id)">Bronx</button>
+		<button type="button" id="BrooklynButton" onClick="reply_click(this.id)">Brooklyn</button>
+		<button type="button" id="ManhattanButton" onClick="reply_click(this.id)">Manhattan</button>
+		<button type="button" id="QueensButton">Queens</button>
+		<button type="button" id="StatenIslandButton" onClick="reply_click(this.id)">Staten Island</button>
 		<div id="chart"></div> 
+		<br>
+		<a href="http://thomasorthmann.github.io/Minority-Report-New-York-Vehicle-Collision-Edition.ipynb" target="_blank">Download ipython notebook</a><br>
 		<script type="text/javascript" src="barChart.js"></script>
     </body>
 </html>

@@ -1,6 +1,6 @@
 var margin ={top:20, right:30, bottom:30, left:40},
     width=960-margin.left - margin.right, 
-    height=500-margin.top-margin.bottom;
+    height=300-margin.top-margin.bottom;
 
 // scale to ordinal because x axis is not numerical
 var x = d3.scale.ordinal().rangeRoundBands([0, width], .1);
@@ -20,13 +20,13 @@ var yAxis = d3.svg.axis()
               .scale(y)
               .orient("left");
 
-d3.json("json/collisionBronxPerYear.json", function(error, data){
+d3.json("json/collisionQueensPerYear.json", function(error, data){
   x.domain(data.map(function(d){ return d.Month}));
   y.domain([0, d3.max(data, function(d){return d.Occurrence})]);
   
   var bar = chart.selectAll("g")
                     .data(data)
-                  .enter()
+                    .enter()
                     .append("g")
                     .attr("transform", function(d, i){
                       return "translate("+x(d.Month)+", 0)";
@@ -71,9 +71,15 @@ d3.json("json/collisionBronxPerYear.json", function(error, data){
         .attr("dy", ".71em")
         .style("text-anchor", "end")
         .text("Occurrence");
-});
+
+  
+
+  });
+
 
 function type(d) {
     d.Month = +d.Month; // coerce to number
     return d;
   }
+
+
