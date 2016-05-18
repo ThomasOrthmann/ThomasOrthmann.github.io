@@ -2,27 +2,26 @@ var margin ={top:20, right:30, bottom:30, left:40},
     width=960-margin.left - margin.right, 
     height=300-margin.top-margin.bottom;
 
-                var datasetFull=[];
-                var datasetTillDate=[];
+                var datasetTop=[];
+                var datasetBottom=[];
                 var dataset;
 
-                d3.json("json/collisionPerYear.json", function(data) {
-                    for (var i = 0, l=data.length, j=0, k=0; i <l; i++) {
-                        if (data[i]['Type']=="FullYear") {
-                            datasetFull.push([]);
-                            datasetFull[j].push(data[i]["Year"]);
-                            datasetFull[j].push(data[i]["Occurrence"]); 
-                            j++;
-                        }
-                        else {
-                            datasetTillDate.push([]);
-                            datasetTillDate[k].push(data[i]["Year"]);
-                            datasetTillDate[k].push(data[i]["Occurrence"]); 
-                            k++; 
-                        }
+                d3.json("json/collisionPerZip.json", function(data) {
+                    for (var i = data.length-1, j=0; i >data.length-40; i--) {
+                              datasetTop.push([]);
+                              datasetTop[j].push(data[i]["Zipcode"]);
+                              datasetTop[j].push(data[i]["Occurrence"]);
+                              j++;
+                                                    
+                    };
+                    for (var i = 40, j=0; i >=0; i--) {
+                              datasetBottom.push([]);
+                              datasetBottom[j].push(data[i]["Zipcode"]);
+                              datasetBottom[j].push(data[i]["Occurrence"]);
+                              j++;
                     };
 
-                    dataset=datasetFull;
+                    dataset=datasetTop;
 
                     //var maxProstitution2003=Math.max(arrayProstitution2003);
 
@@ -55,7 +54,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                       .orient("left");
 
                     //Create SVG element
-                    var chart = d3.select("#chart2")  
+                    var chart = d3.select("#chart3")  
                                   .append("svg")  //append svg element inside #chart
                                   .attr("width", width+(2*margin.left)+margin.right)    //set width
                                   .attr("height", height+margin.top+margin.bottom);
@@ -106,18 +105,58 @@ var margin ={top:20, right:30, bottom:30, left:40},
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
-                        .text("Occurrence");
+                        .text("Occurrence"); 
 
-                    d3.select("#ButtonFull")
+                    d3.select("#ButtonBottom")
                         .on("click", function() {
-                            var dataset=datasetFull;
+                            var dataset=datasetBottom;
 
-                            y.domain([0, d3.max(dataset, function(d) { return d[1]; })]);
+                            x.domain(dataset.map(function(d){ return d[0]; }));
 
-                            chart.select(".y.axis")
-                                .transition()
-                                .duration(1000)
-                                .call(yAxis);
+                            chart.select(".x.axis")
+                                .call(xAxis)
+                                .selectAll("text")  
+                                    .style("text-anchor", "end")
+                                    .attr("dx", "-.8em")
+                                    .attr("dy", ".15em")
+                                    .attr("transform", "rotate(-65)" );
+
+                                    
+                            //Update all bars
+                            bar.select("rect")
+                               .data(dataset)
+                               .transition()
+                               .duration(1000)
+                               .attr("y", function(d) { 
+                                  return y(d[1]); 
+                                })
+                                .attr("height", function(d) { 
+                                  return barHeight(d[1]); 
+                                });
+
+                            bar.select("text")
+                                   .data(dataset)
+                                   .transition()   
+                                   .duration(1000)
+                                    .attr("y", function(d) { return y(d[1]) - 10; })
+                                    .attr("dy", ".75em")
+                                    .text(function(d) { return d[1]; })
+                                    .style('fill', 'white'); 
+                    }); 
+
+                    d3.select("#ButtonTop")
+                        .on("click", function() {
+                            var dataset=datasetTop;
+
+                            x.domain(dataset.map(function(d){ return d[0]; }));
+
+                            chart.select(".x.axis")
+                                .call(xAxis)
+                                .selectAll("text")  
+                                    .style("text-anchor", "end")
+                                    .attr("dx", "-.8em")
+                                    .attr("dy", ".15em")
+                                    .attr("transform", "rotate(-65)" );
                                     
                             //Update all bars
                             bar.select("rect")
@@ -137,47 +176,9 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                    .duration(1000)
                                     .attr("y", function(d) { return y(d[1]) + 2; })
                                     .attr("dy", ".75em")
-                                    .text(function(d) { return d[1]; });
-
-
-
-                        }); 
-
-                      d3.select("#ButtonTillDate")
-                        .on("click", function() {
-                            var dataset=datasetTillDate;
-
-                            y.domain([0, d3.max(dataset, function(d) { return d[1]; })]);
-
-                            chart.select(".y.axis")
-                                .transition()
-                                .duration(1000)
-                                .call(yAxis);
-                                    
-                            //Update all bars
-                            bar.select("rect")
-                               .data(dataset)
-                               .transition()
-                               .duration(1000)
-                               .attr("y", function(d) { 
-                                  return y(d[1]); 
-                                })
-                                .attr("height", function(d) { 
-                                  return height/284*d[1]; 
-                                });
-
-                            bar.select("text")
-                                   .data(dataset)
-                                   .transition()   
-                                   .duration(1000)
-                                    .attr("y", function(d) { return y(d[1]) + 2; })
-                                    .attr("dy", ".75em")
-                                    .text(function(d) { return d[1]; });
-
-                            
-
-
-                        });
+                                    .text(function(d) { return d[1]; })
+                                    .style('fill', 'black'); 
+                    });                 
 
                     
                 });

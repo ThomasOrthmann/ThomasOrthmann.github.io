@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title>D3 Page Template</title>
         <style type="text/css">
-            #chart rect{
+            .chart rect{
 			  fill: #4aaeea;
 			}
 
-			#chart text{
+			.chart text{
 			  fill: white;
 			  font: 10px sans-serif;
 			  text-anchor: end; 
@@ -35,11 +35,13 @@
 			}
         </style>
         <script type="text/javascript" src="d3/d3-master/d3.js"></script>
+        <script src="//d3js.org/queue.v1.min.js"></script>
+		<script src="//d3js.org/topojson.v1.min.js"></script>
     </head>
     <body>
     	<h2>D3JS Simple JSON SVG barchart Horizontal with Axis</h2>
 		<i>using simple JSON data</i><br/>
-		<dir>
+		<div>
 			<div>
 				<button type="button" id="BronxButton">Bronx</button>
 				<button type="button" id="BrooklynButton">Brooklyn</button>
@@ -47,20 +49,38 @@
 				<button type="button" id="QueensButton">Queens</button>
 				<button type="button" id="StatenIslandButton">Staten Island</button>
 			</div>
-			<div id="chart"></div> 
-		</dir>
+			<br>
+			<div class="chart" id="chart"></div> 
+		</div>
 		<br>
-		<dir>
+
+		<div>
 			<div>
 				<button type="button" id="ButtonFull">Yearly</button>
-				<button type="button" id="ButtonTillDate">Year till date</button>
+				<button type="button" id="ButtonTillDate">Year-till-date</button>
 			</div>
 			<br>
-			<div id="chart2"></div> 
-		</dir>
+			<div class="chart" id="chart2"></div> 
+		</div>
 		<br>
+
+		<div>
+			<div>
+				<button type="button" id="ButtonTop">Top 40 Zip</button>
+				<button type="button" id="ButtonBottom">Bottom 40 Zip</button>
+			</div>
+			<br>
+			<div class="chart" id="chart3"></div> 
+		</div>
+		<br>
+
+		<div>
+			<div class="chart" id="chart4"></div> 
+		</div>
+
 		<a href="http://thomasorthmann.github.io/Minority-Report-New-York-Vehicle-Collision-Edition.ipynb" target="_blank">Download ipython notebook</a><br>
 		<script type="text/javascript" src="barChart.js"></script>
 		<script type="text/javascript" src="barChart2.js"></script>
+		<script type="text/javascript" src="barChart3.js"></script>
     </body>
 </html>

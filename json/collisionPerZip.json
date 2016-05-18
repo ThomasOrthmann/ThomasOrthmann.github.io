@@ -1,0 +1,698 @@
+[
+  {
+    "Zipcode": 10020,
+    "Occurrence": 1
+  },
+  {
+    "Zipcode": 10303,
+    "Occurrence": 1
+  },
+  {
+    "Zipcode": 10005,
+    "Occurrence": 2
+  },
+  {
+    "Zipcode": 10302,
+    "Occurrence": 2
+  },
+  {
+    "Zipcode": 11239,
+    "Occurrence": 2
+  },
+  {
+    "Zipcode": 10075,
+    "Occurrence": 3
+  },
+  {
+    "Zipcode": 11697,
+    "Occurrence": 3
+  },
+  {
+    "Zipcode": 10006,
+    "Occurrence": 4
+  },
+  {
+    "Zipcode": 10038,
+    "Occurrence": 4
+  },
+  {
+    "Zipcode": 10464,
+    "Occurrence": 6
+  },
+  {
+    "Zipcode": 10470,
+    "Occurrence": 6
+  },
+  {
+    "Zipcode": 11360,
+    "Occurrence": 6
+  },
+  {
+    "Zipcode": 11426,
+    "Occurrence": 6
+  },
+  {
+    "Zipcode": 10039,
+    "Occurrence": 7
+  },
+  {
+    "Zipcode": 11692,
+    "Occurrence": 7
+  },
+  {
+    "Zipcode": 10028,
+    "Occurrence": 8
+  },
+  {
+    "Zipcode": 10475,
+    "Occurrence": 8
+  },
+  {
+    "Zipcode": 11004,
+    "Occurrence": 8
+  },
+  {
+    "Zipcode": 11102,
+    "Occurrence": 8
+  },
+  {
+    "Zipcode": 10004,
+    "Occurrence": 9
+  },
+  {
+    "Zipcode": 10307,
+    "Occurrence": 9
+  },
+  {
+    "Zipcode": 11363,
+    "Occurrence": 9
+  },
+  {
+    "Zipcode": 11411,
+    "Occurrence": 9
+  },
+  {
+    "Zipcode": 11428,
+    "Occurrence": 9
+  },
+  {
+    "Zipcode": 10466,
+    "Occurrence": 10
+  },
+  {
+    "Zipcode": 10469,
+    "Occurrence": 10
+  },
+  {
+    "Zipcode": 11357,
+    "Occurrence": 10
+  },
+  {
+    "Zipcode": 11367,
+    "Occurrence": 10
+  },
+  {
+    "Zipcode": 10007,
+    "Occurrence": 11
+  },
+  {
+    "Zipcode": 10030,
+    "Occurrence": 11
+  },
+  {
+    "Zipcode": 11362,
+    "Occurrence": 11
+  },
+  {
+    "Zipcode": 11427,
+    "Occurrence": 11
+  },
+  {
+    "Zipcode": 11429,
+    "Occurrence": 11
+  },
+  {
+    "Zipcode": 10023,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 10310,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 11231,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 11379,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 11415,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 11693,
+    "Occurrence": 12
+  },
+  {
+    "Zipcode": 11414,
+    "Occurrence": 13
+  },
+  {
+    "Zipcode": 10037,
+    "Occurrence": 14
+  },
+  {
+    "Zipcode": 11104,
+    "Occurrence": 14
+  },
+  {
+    "Zipcode": 11105,
+    "Occurrence": 14
+  },
+  {
+    "Zipcode": 11436,
+    "Occurrence": 14
+  },
+  {
+    "Zipcode": 10021,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 10065,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 10471,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 11356,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 11364,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 11365,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 11374,
+    "Occurrence": 15
+  },
+  {
+    "Zipcode": 11370,
+    "Occurrence": 16
+  },
+  {
+    "Zipcode": 11378,
+    "Occurrence": 16
+  },
+  {
+    "Zipcode": 10024,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 10032,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 10301,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 10309,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 11366,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 11694,
+    "Occurrence": 17
+  },
+  {
+    "Zipcode": 10010,
+    "Occurrence": 18
+  },
+  {
+    "Zipcode": 10025,
+    "Occurrence": 18
+  },
+  {
+    "Zipcode": 11228,
+    "Occurrence": 18
+  },
+  {
+    "Zipcode": 10473,
+    "Occurrence": 19
+  },
+  {
+    "Zipcode": 11237,
+    "Occurrence": 19
+  },
+  {
+    "Zipcode": 10009,
+    "Occurrence": 20
+  },
+  {
+    "Zipcode": 10035,
+    "Occurrence": 20
+  },
+  {
+    "Zipcode": 10474,
+    "Occurrence": 20
+  },
+  {
+    "Zipcode": 11413,
+    "Occurrence": 21
+  },
+  {
+    "Zipcode": 10128,
+    "Occurrence": 22
+  },
+  {
+    "Zipcode": 10461,
+    "Occurrence": 22
+  },
+  {
+    "Zipcode": 11423,
+    "Occurrence": 22
+  },
+  {
+    "Zipcode": 10462,
+    "Occurrence": 23
+  },
+  {
+    "Zipcode": 10465,
+    "Occurrence": 23
+  },
+  {
+    "Zipcode": 11422,
+    "Occurrence": 23
+  },
+  {
+    "Zipcode": 10314,
+    "Occurrence": 24
+  },
+  {
+    "Zipcode": 11217,
+    "Occurrence": 24
+  },
+  {
+    "Zipcode": 10003,
+    "Occurrence": 25
+  },
+  {
+    "Zipcode": 11205,
+    "Occurrence": 25
+  },
+  {
+    "Zipcode": 10463,
+    "Occurrence": 26
+  },
+  {
+    "Zipcode": 11209,
+    "Occurrence": 26
+  },
+  {
+    "Zipcode": 11229,
+    "Occurrence": 26
+  },
+  {
+    "Zipcode": 10017,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 10308,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11103,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11106,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11221,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11249,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11417,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 11691,
+    "Occurrence": 27
+  },
+  {
+    "Zipcode": 10033,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 10040,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 11204,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 11214,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 11225,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 11369,
+    "Occurrence": 28
+  },
+  {
+    "Zipcode": 10312,
+    "Occurrence": 29
+  },
+  {
+    "Zipcode": 11208,
+    "Occurrence": 29
+  },
+  {
+    "Zipcode": 11215,
+    "Occurrence": 29
+  },
+  {
+    "Zipcode": 11230,
+    "Occurrence": 29
+  },
+  {
+    "Zipcode": 11412,
+    "Occurrence": 29
+  },
+  {
+    "Zipcode": 10012,
+    "Occurrence": 30
+  },
+  {
+    "Zipcode": 10018,
+    "Occurrence": 30
+  },
+  {
+    "Zipcode": 11219,
+    "Occurrence": 30
+  },
+  {
+    "Zipcode": 11238,
+    "Occurrence": 30
+  },
+  {
+    "Zipcode": 10014,
+    "Occurrence": 31
+  },
+  {
+    "Zipcode": 10026,
+    "Occurrence": 31
+  },
+  {
+    "Zipcode": 10029,
+    "Occurrence": 31
+  },
+  {
+    "Zipcode": 10453,
+    "Occurrence": 32
+  },
+  {
+    "Zipcode": 10472,
+    "Occurrence": 32
+  },
+  {
+    "Zipcode": 11377,
+    "Occurrence": 32
+  },
+  {
+    "Zipcode": 11433,
+    "Occurrence": 32
+  },
+  {
+    "Zipcode": 11375,
+    "Occurrence": 33
+  },
+  {
+    "Zipcode": 11416,
+    "Occurrence": 33
+  },
+  {
+    "Zipcode": 10467,
+    "Occurrence": 34
+  },
+  {
+    "Zipcode": 11207,
+    "Occurrence": 34
+  },
+  {
+    "Zipcode": 10022,
+    "Occurrence": 35
+  },
+  {
+    "Zipcode": 10454,
+    "Occurrence": 36
+  },
+  {
+    "Zipcode": 11218,
+    "Occurrence": 36
+  },
+  {
+    "Zipcode": 11233,
+    "Occurrence": 36
+  },
+  {
+    "Zipcode": 10305,
+    "Occurrence": 37
+  },
+  {
+    "Zipcode": 11213,
+    "Occurrence": 37
+  },
+  {
+    "Zipcode": 11358,
+    "Occurrence": 37
+  },
+  {
+    "Zipcode": 10019,
+    "Occurrence": 38
+  },
+  {
+    "Zipcode": 10304,
+    "Occurrence": 38
+  },
+  {
+    "Zipcode": 10455,
+    "Occurrence": 38
+  },
+  {
+    "Zipcode": 11216,
+    "Occurrence": 38
+  },
+  {
+    "Zipcode": 11232,
+    "Occurrence": 38
+  },
+  {
+    "Zipcode": 10459,
+    "Occurrence": 39
+  },
+  {
+    "Zipcode": 11210,
+    "Occurrence": 39
+  },
+  {
+    "Zipcode": 10031,
+    "Occurrence": 40
+  },
+  {
+    "Zipcode": 10034,
+    "Occurrence": 40
+  },
+  {
+    "Zipcode": 11224,
+    "Occurrence": 40
+  },
+  {
+    "Zipcode": 11432,
+    "Occurrence": 40
+  },
+  {
+    "Zipcode": 11226,
+    "Occurrence": 41
+  },
+  {
+    "Zipcode": 10468,
+    "Occurrence": 42
+  },
+  {
+    "Zipcode": 11435,
+    "Occurrence": 42
+  },
+  {
+    "Zipcode": 10002,
+    "Occurrence": 43
+  },
+  {
+    "Zipcode": 11101,
+    "Occurrence": 43
+  },
+  {
+    "Zipcode": 10027,
+    "Occurrence": 44
+  },
+  {
+    "Zipcode": 11201,
+    "Occurrence": 45
+  },
+  {
+    "Zipcode": 11355,
+    "Occurrence": 45
+  },
+  {
+    "Zipcode": 11420,
+    "Occurrence": 45
+  },
+  {
+    "Zipcode": 11222,
+    "Occurrence": 46
+  },
+  {
+    "Zipcode": 10011,
+    "Occurrence": 48
+  },
+  {
+    "Zipcode": 10016,
+    "Occurrence": 48
+  },
+  {
+    "Zipcode": 10460,
+    "Occurrence": 48
+  },
+  {
+    "Zipcode": 11234,
+    "Occurrence": 48
+  },
+  {
+    "Zipcode": 11212,
+    "Occurrence": 49
+  },
+  {
+    "Zipcode": 11421,
+    "Occurrence": 49
+  },
+  {
+    "Zipcode": 11223,
+    "Occurrence": 50
+  },
+  {
+    "Zipcode": 11354,
+    "Occurrence": 50
+  },
+  {
+    "Zipcode": 10013,
+    "Occurrence": 51
+  },
+  {
+    "Zipcode": 10036,
+    "Occurrence": 51
+  },
+  {
+    "Zipcode": 10451,
+    "Occurrence": 51
+  },
+  {
+    "Zipcode": 10001,
+    "Occurrence": 52
+  },
+  {
+    "Zipcode": 10306,
+    "Occurrence": 52
+  },
+  {
+    "Zipcode": 11235,
+    "Occurrence": 52
+  },
+  {
+    "Zipcode": 11361,
+    "Occurrence": 52
+  },
+  {
+    "Zipcode": 11385,
+    "Occurrence": 53
+  },
+  {
+    "Zipcode": 10456,
+    "Occurrence": 55
+  },
+  {
+    "Zipcode": 11373,
+    "Occurrence": 55
+  },
+  {
+    "Zipcode": 10458,
+    "Occurrence": 56
+  },
+  {
+    "Zipcode": 11418,
+    "Occurrence": 56
+  },
+  {
+    "Zipcode": 11220,
+    "Occurrence": 58
+  },
+  {
+    "Zipcode": 11372,
+    "Occurrence": 58
+  },
+  {
+    "Zipcode": 10452,
+    "Occurrence": 59
+  },
+  {
+    "Zipcode": 11206,
+    "Occurrence": 64
+  },
+  {
+    "Zipcode": 10457,
+    "Occurrence": 66
+  },
+  {
+    "Zipcode": 11211,
+    "Occurrence": 68
+  },
+  {
+    "Zipcode": 11434,
+    "Occurrence": 69
+  },
+  {
+    "Zipcode": 11203,
+    "Occurrence": 70
+  },
+  {
+    "Zipcode": 11236,
+    "Occurrence": 73
+  },
+  {
+    "Zipcode": 11368,
+    "Occurrence": 77
+  },
+  {
+    "Zipcode": 11419,
+    "Occurrence": 87
+  }
+]
