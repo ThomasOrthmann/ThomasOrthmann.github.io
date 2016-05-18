@@ -2,48 +2,27 @@ var margin ={top:20, right:30, bottom:30, left:40},
     width=960-margin.left - margin.right, 
     height=300-margin.top-margin.bottom;
 
-                var datasetBronx=[];
-                var datasetBrooklyn=[];
-                var datasetQueens=[];
-                var datasetManhattan=[];
-                var datasetStatenIsland=[];
-                var xx;
+                var datasetFull=[];
+                var datasetTillDate=[];
+                var dataset;
 
-                d3.json("json/collisionPerMonthPerBorough.json", function(data) {
-                    for (var i = 0, l=data.length, j=0, k=0, m=0, n=0, p=0; i <l; i++) {
-                        if (data[i]['Borough']=="Bronx") {
-                            datasetBronx.push([]);
-                            datasetBronx[j].push(data[i]["Month"]);
-                            datasetBronx[j].push(data[i]["Occurrence"]); 
+                d3.json("json/collisionPerYear.json", function(data) {
+                    for (var i = 0, l=data.length, j=0, k=0; i <l; i++) {
+                        if (data[i]['Type']=="FullYear") {
+                            datasetFull.push([]);
+                            datasetFull[j].push(data[i]["Year"]);
+                            datasetFull[j].push(data[i]["Occurrence"]); 
                             j++;
                         }
-                        else if (data[i]['Borough']=="Manhattan") {
-                            datasetManhattan.push([]);
-                            datasetManhattan[k].push(data[i]["Month"]);
-                            datasetManhattan[k].push(data[i]["Occurrence"]); 
+                        else {
+                            datasetTillDate.push([]);
+                            datasetTillDate[k].push(data[i]["Year"]);
+                            datasetTillDate[k].push(data[i]["Occurrence"]); 
                             k++; 
                         }
-                        else if (data[i]['Borough']=="Queens") {
-                            datasetQueens.push([]);
-                            datasetQueens[m].push(data[i]["Month"]);
-                            datasetQueens[m].push(data[i]["Occurrence"]); 
-                            m++; 
-                        }
-                        else if (data[i]['Borough']=="Brooklyn") {
-                            datasetBrooklyn.push([]);
-                            datasetBrooklyn[n].push(data[i]["Month"]);
-                            datasetBrooklyn[n].push(data[i]["Occurrence"]); 
-                            n++; 
-                        }
-                        else if (data[i]['Borough']=="StatenIsland") {
-                            datasetStatenIsland.push([]);
-                            datasetStatenIsland[p].push(data[i]["Month"]);
-                            datasetStatenIsland[p].push(data[i]["Occurrence"]); 
-                            p++; 
-                        };
                     };
 
-                    xx=datasetQueens;
+                    dataset=datasetFull;
 
                     //var maxProstitution2003=Math.max(arrayProstitution2003);
 
@@ -51,18 +30,18 @@ var margin ={top:20, right:30, bottom:30, left:40},
                         return Math.max.apply(null, numArray);
                     }
 
-                    var maxCollision=getMaxOfArray(xx);
+                    var maxCollision=getMaxOfArray(dataset);
 
                     var x = d3.scale.ordinal()
-                                    .domain(xx.map(function(d){ return d[0]; }))
+                                    .domain(dataset.map(function(d){ return d[0]; }))
                                     .rangeRoundBands([0, width], .1);
 
                     var y = d3.scale.linear()
-                                    .domain([0, d3.max(xx, function(d) { return d[1]; })])
+                                    .domain([0, d3.max(dataset, function(d) { return d[1]; })])
                                     .range([height, 0]);
 
                     var barHeight = d3.scale.linear()
-                                         .domain([0, d3.max(xx, function(d) { return d[1]; })])
+                                         .domain([0, d3.max(dataset, function(d) { return d[1]; })])
                                          .range([1, height]);
 
                     //Define X axis
@@ -82,7 +61,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                   .attr("height", height+margin.top+margin.bottom);
 
                     var bar = chart.selectAll("g")
-                                    .data(xx)
+                                    .data(dataset)
                                     .enter()
                                     .append("g")
                                     .attr("transform", function(d, i){
@@ -94,7 +73,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                           return y(d[1]); 
                         })
                         .attr("x", function(d,i){
-                          return x.rangeBand()+(margin.left/2);
+                          return 40;
                         })
                         .attr("height", function(d) { 
                           return barHeight(d[1]); 
@@ -102,7 +81,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                         .attr("width", x.rangeBand());
 
                     bar.append("text")
-                        .attr("x", x.rangeBand()+margin.left-6 )
+                        .attr("x", x.rangeBand()/2+45)
                         .attr("y", function(d) { return y(d[1]) + 2; })
                         .attr("dy", ".75em")
                         .text(function(d) { return d[1]; })
@@ -129,9 +108,16 @@ var margin ={top:20, right:30, bottom:30, left:40},
                         .style("text-anchor", "end")
                         .text("Occurrence");
 
-                    d3.select("#BronxButton")
+                    d3.select("#ButtonFull")
                         .on("click", function() {
-                            var dataset=datasetBronx;
+                            var dataset=datasetFull;
+
+                            y.domain([0, d3.max(dataset, function(d) { return d[1]; })]);
+
+                            chart.select(".y.axis")
+                                .transition()
+                                .duration(1000)
+                                .call(yAxis);
                                     
                             //Update all bars
                             bar.select("rect")
@@ -152,12 +138,21 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                     .attr("y", function(d) { return y(d[1]) + 2; })
                                     .attr("dy", ".75em")
                                     .text(function(d) { return d[1]; });
+
+
 
                         }); 
 
-                      d3.select("#ManhattanButton")
+                      d3.select("#ButtonTillDate")
                         .on("click", function() {
-                            var dataset=datasetManhattan;
+                            var dataset=datasetTillDate;
+
+                            y.domain([0, d3.max(dataset, function(d) { return d[1]; })]);
+
+                            chart.select(".y.axis")
+                                .transition()
+                                .duration(1000)
+                                .call(yAxis);
                                     
                             //Update all bars
                             bar.select("rect")
@@ -168,7 +163,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                   return y(d[1]); 
                                 })
                                 .attr("height", function(d) { 
-                                  return barHeight(d[1]); 
+                                  return height/254*d[1]; 
                                 });
 
                             bar.select("text")
@@ -179,85 +174,10 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                     .attr("dy", ".75em")
                                     .text(function(d) { return d[1]; });
 
-                        });
-                      
-                      d3.select("#StatenIslandButton")
-                        .on("click", function() {
-                            var dataset=datasetStatenIsland;
-                                    
-                            //Update all bars
-                            bar.select("rect")
-                               .data(dataset)
-                               .transition()
-                               .duration(1000)
-                               .attr("y", function(d) { 
-                                  return y(d[1]); 
-                                })
-                                .attr("height", function(d) { 
-                                  return barHeight(d[1]); 
-                                });
+                            
 
-                            bar.select("text")
-                                   .data(dataset)
-                                   .transition()   
-                                   .duration(1000)
-                                    .attr("y", function(d) { return y(d[1]) + 2; })
-                                    .attr("dy", ".75em")
-                                    .text(function(d) { return d[1]; });
 
                         });
 
-                      d3.select("#BrooklynButton")
-                        .on("click", function() {
-                            var dataset=datasetBrooklyn;
-                                    
-                            //Update all bars
-                            bar.select("rect")
-                               .data(dataset)
-                               .transition()
-                               .duration(1000)
-                               .attr("y", function(d) { 
-                                  return y(d[1]); 
-                                })
-                                .attr("height", function(d) { 
-                                  return barHeight(d[1]); 
-                                });
-
-                            bar.select("text")
-                                   .data(dataset)
-                                   .transition()   
-                                   .duration(1000)
-                                    .attr("y", function(d) { return y(d[1]) + 2; })
-                                    .attr("dy", ".75em")
-                                    .text(function(d) { return d[1]; });
-
-                        });
-
-                        d3.select("#QueensButton")
-                        .on("click", function() {
-                            var dataset=datasetQueens;
-                                    
-                            //Update all bars
-                            bar.select("rect")
-                               .data(dataset)
-                               .transition()
-                               .duration(1000)
-                               .attr("y", function(d) { 
-                                  return y(d[1]); 
-                                })
-                                .attr("height", function(d) { 
-                                  return barHeight(d[1]); 
-                                });
-
-                            bar.select("text")
-                                   .data(dataset)
-                                   .transition()   
-                                   .duration(1000)
-                                    .attr("y", function(d) { return y(d[1]) + 2; })
-                                    .attr("dy", ".75em")
-                                    .text(function(d) { return d[1]; });
-
-                        });
                     
                 });
-

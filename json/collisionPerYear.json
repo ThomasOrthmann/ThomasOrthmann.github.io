@@ -1,14 +1,42 @@
 [
   {
+    "Type":"FullYear",
     "Year": 2013,
     "Occurrence": 1228
   },
   {
+    "Type":"FullYear",
     "Year": 2014,
     "Occurrence": 1469
   },
   {
+    "Type":"FullYear",
     "Year": 2015,
     "Occurrence": 1419
+  },
+  {
+    "Type":"FullYear",
+    "Year": 2016,
+    "Occurrence": 254
+  },
+  {
+    "Type":"TillDate",
+    "Year": 2013,
+    "Occurrence": 179
+  },
+  {
+    "Type":"TillDate",
+    "Year": 2014,
+    "Occurrence": 206
+  },
+  {
+    "Type":"TillDate",
+    "Year": 2015,
+    "Occurrence": 197
+  },
+  {
+    "Type":"TillDate",
+    "Year": 2016,
+    "Occurrence": 254
   }
 ]
