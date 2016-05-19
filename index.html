@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <title>D3 Page Template</title>
         <style type="text/css">
+        	h2 {
+        		margin:0 auto;
+        	}
+        	.button {
+        		margin:0 auto;
+        	}
             .chart rect{
 			  fill: #4aaeea;
 			}
@@ -11,7 +17,7 @@
 			.chart text{
 			  fill: white;
 			  font: 10px sans-serif;
-			  text-anchor: end; 
+			  text-anchor: end;
 			}
 
 			.axis text{
@@ -39,9 +45,30 @@
 		<script src="//d3js.org/topojson.v1.min.js"></script>
     </head>
     <body>
-    	<h2>Collisions involving drunk driving in NYC</h2><br/>
+    	<h2>Collisions involving drunk driving in NYC</h2><br>
+    	<h3>Our goal is to help NYPD locate drunk drivers in terms of time and place to be able to prevent accidents.<br>
+    	We did that by analyzing historical data of vehicle collision in NYC's boroughs.</h3>
+		<br>
 		<div>
-			<div>
+			<ul>
+			<li>On the first chart the trend of number of collisions involving drunk drivers can be seen.</li>
+			<li>First on a yearly basis for the whole period and then on a year-till-date base.</li>
+			<li>In 2016 the number is a intense rise compared to previous years.</li>
+			</ul>
+			<div class="button">
+				<button type="button" id="ButtonFull">Yearly</button>
+				<button type="button" id="ButtonTillDate">Year-till-date</button>
+			</div>
+			<br>
+			<div class="chart" id="chart2"></div> 
+		</div>
+		<br>
+			<ul>
+			<li>On the second chart we took a look at the whole available period in terms of months in each borough.</li>
+			<li>Our goal was to identify patterns occuring throughout different districts.</li>
+			<li>Using the buttons below, each borough can be observed.</li>
+			</ul>
+			<div class="button">
 				<button type="button" id="BronxButton">Bronx</button>
 				<button type="button" id="BrooklynButton">Brooklyn</button>
 				<button type="button" id="ManhattanButton">Manhattan</button>
@@ -50,20 +77,26 @@
 			</div>
 			<br>
 			<div class="chart" id="chart"></div> 
+		<div>
+			<ul>
+			<li>After analyzing each area, we took a look at each month to see which seem to be the most probable for collisions involving drunk drivers.</li>
+			<li>The chart clearly shows us that the main season for this kind of accident are the summer months.</li>
+			<li>Interesting to see that the winter months underperform. We expected to have higher number there due to the holidays.</li>
+			</ul>
+			<div class="chart" id="chart4"></div> 
+		
 		</div>
 		<br>
-
+			<ul>
+			<li>In terms of hour-of-day the following chart helps us to highlight peek periods</li>
+			<li>Night hours take a leap ahead of others. The heaviest hours are between 12 pm and 5 am</li>
+			</ul>			
+			<div class="chart" id="chart5"></div> 
 		<div>
-			<div>
-				<button type="button" id="ButtonFull">Yearly</button>
-				<button type="button" id="ButtonTillDate">Year-till-date</button>
-			</div>
-			<br>
-			<div class="chart" id="chart2"></div> 
-		</div>
-		<br>
-
-		<div>
+		<ul>
+			<li>To be able to handle the greater load, we identified the major locations in terms of Zipcode areas.</li>
+			<li>To be able to rearrange units we collected the 40 most and least busy area.</li>
+			</ul>
 			<div>
 				<button type="button" id="ButtonTop">Top 40 Zip</button>
 				<button type="button" id="ButtonBottom">Bottom 40 Zip</button>
@@ -72,14 +105,8 @@
 			<div class="chart" id="chart3"></div> 
 		</div>
 		<br>
-
-		<div>
-			<div class="chart" id="chart4"></div> 
-		</div>
+		<h3>Our final recommendation is to redirect forces from less busy locations to the heavily impacted areas in rush hours in order to prevent drunk drivers to cause collisions and accidents. </h3>
 		<br>
-		<div>
-			<div class="chart" id="chart5"></div> 
-		</div>
 
 		<a href="http://thomasorthmann.github.io/Minority-Report-New-York-Vehicle-Collision-Edition.ipynb" target="_blank">Download ipython notebook</a><br>
 		<script type="text/javascript" src="barChart.js"></script>

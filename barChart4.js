@@ -16,8 +16,6 @@ var margin ={top:20, right:30, bottom:30, left:40},
 
                     data=dataMonth;
 
-                    //var maxProstitution2003=Math.max(arrayProstitution2003);
-
 
                     var x = d3.scale.ordinal()
                                     .domain(data.map(function(d){ return d[0]; }))

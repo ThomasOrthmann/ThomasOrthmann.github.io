@@ -24,8 +24,6 @@ var margin ={top:20, right:30, bottom:30, left:40},
 
                     dataset=datasetFull;
 
-                    //var maxProstitution2003=Math.max(arrayProstitution2003);
-
                     function getMaxOfArray(numArray) {
                         return Math.max.apply(null, numArray);
                     }
