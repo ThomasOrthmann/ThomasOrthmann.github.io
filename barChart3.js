@@ -7,7 +7,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                 var dataset;
 
                 d3.json("json/collisionPerZip.json", function(data) {
-                    for (var i = data.length-1, j=0; i >data.length-40; i--) {
+                    for (var i = data.length-1, j=0; i >=data.length-41; i--) {
                               datasetTop.push([]);
                               datasetTop[j].push(data[i]["Zipcode"]);
                               datasetTop[j].push(data[i]["Occurrence"]);

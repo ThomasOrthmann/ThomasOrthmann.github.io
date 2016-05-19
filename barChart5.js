@@ -2,33 +2,28 @@ var margin ={top:20, right:30, bottom:30, left:40},
     width=960-margin.left - margin.right, 
     height=300-margin.top-margin.bottom;
 
-                var dataMonth=[];
-                var data;
 
-                d3.json("json/collisionPerMonths.json", function(data) {
-                    for (var i=0, l=data.length, j=0; i<l; i++) {
-                              dataMonth.push([]);
-                              dataMonth[j].push(data[i]["Month"]);
-                              dataMonth[j].push(data[i]["Occurrence"]);
-                              j++;
+                var dataset=[];
+
+                d3.json("json/collisionPerHourOfDay.json", function(data) {
+                    for (var i =0,l=data.length; i<l; i++) {
+                              dataset.push([]);
+                              dataset[i].push(data[i]["Hour"]);
+                              dataset[i].push(data[i]["Occurrence"]);
                                                     
                     };
-
-                    data=dataMonth;
-
-                    //var maxProstitution2003=Math.max(arrayProstitution2003);
-
+                    
 
                     var x = d3.scale.ordinal()
-                                    .domain(data.map(function(d){ return d[0]; }))
+                                    .domain(dataset.map(function(d){ return d[0]; }))
                                     .rangeRoundBands([0, width], .1);
 
                     var y = d3.scale.linear()
-                                    .domain([0, d3.max(data, function(d) { return d[1]; })])
+                                    .domain([0, d3.max(dataset, function(d) { return d[1]; })])
                                     .range([height, 0]);
 
                     var barHeight = d3.scale.linear()
-                                         .domain([0, d3.max(data, function(d) { return d[1]; })])
+                                         .domain([0, d3.max(dataset, function(d) { return d[1]; })])
                                          .range([1, height]);
 
                     //Define X axis
@@ -42,13 +37,13 @@ var margin ={top:20, right:30, bottom:30, left:40},
                                       .orient("left");
 
                     //Create SVG element
-                    var chart = d3.select("#chart4")  
+                    var chart = d3.select("#chart5")  
                                   .append("svg")  //append svg element inside #chart
                                   .attr("width", width+(2*margin.left)+margin.right)    //set width
                                   .attr("height", height+margin.top+margin.bottom);
 
                     var bar = chart.selectAll("g")
-                                    .data(data)
+                                    .data(dataset)
                                     .enter()
                                     .append("g")
                                     .attr("transform", function(d, i){
@@ -93,6 +88,7 @@ var margin ={top:20, right:30, bottom:30, left:40},
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
-                        .text("Occurrence"); 
+                        .text("Occurrence");                  
 
+                    
                 });

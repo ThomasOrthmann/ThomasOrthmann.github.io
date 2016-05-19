@@ -1,18 +1,18 @@
 [
   {
-    "Month": "January",
+    "Month": "Jan",
     "Occurence": 285
   },
   {
-    "Month": "February",
+    "Month": "Feb",
     "Occurence": 243
   },
   {
-    "Month": "March",
+    "Month": "Mar",
     "Occurence": 313
   },
   {
-    "Month": "April",
+    "Month": "Apr",
     "Occurence": 325
   },
   {
@@ -20,31 +20,31 @@
     "Occurence": 351
   },
   {
-    "Month": "June",
+    "Month": "Jun",
     "Occurence": 367
   },
   {
-    "Month": "July",
+    "Month": "Jul",
     "Occurence": 389
   },
   {
-    "Month": "August",
+    "Month": "Aug",
     "Occurence": 399
   },
   {
-    "Month": "September",
+    "Month": "Sep",
     "Occurence": 396
   },
   {
-    "Month": "October",
+    "Month": "Oct",
     "Occurence": 351
   },
   {
-    "Month": "November",
+    "Month": "Nov",
     "Occurence": 374
   },
   {
-    "Month": "December",
+    "Month": "Dec",
     "Occurence": 323
   }
 ]
